@@ -24,7 +24,7 @@
 
 .container div{
     padding: 10px;
-    border: 1px solid violet;    
+      
 }
 
 #header{
@@ -56,7 +56,6 @@
     height: 100%;
     border-radius: 50%
 }
-
   
 #sidebar {
     width: 1555px;
@@ -75,23 +74,66 @@
     top: 0px;
     left: 0px;
     width: 1555px;
-    height: 500px;
+    height: 520px;
     background: #104e53 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .avatar{
     position:absolute;
-    width: 700px;
+    width: 618px;
     height: 450px;
-    top: 70%;
-    right: 50%;
-    align-items: center;
+    top: 60%;
+    right: 60%;
+    align-content: flex-end;
 }
 
 .avatar__imagen{
-    height: 200px;
+    position:relative;
+    bottom: 25%;
+    left:60%;
+    height: 220px;
     border-radius: 50%;
+}
+
+.github{
+    position:absolute;
+    width: 60px;
+    height: 70px;
+    top: 70%;
+    left: 25%;
+}
+
+.img__git{
+    position: relative;
+    width: 100%;
+    height: 100%;    
+}
+
+.link__git{
+    text-decoration: none;
+    color:#e9eff0;
+    font-size: small;
+}
+
+.linkedin{
+    position:absolute;
+    width: 60px;
+    height: 70px;
+    top: 70%;
+    left: 32%;
+}
+
+.img__link{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.link__linke{
+    text-decoration: none;
+    color:#e9eff0;
+    font-size: small;
 }
 
 .eu{
@@ -99,7 +141,7 @@
     width: 700px;
     height: 450px;
     top:70%;
-    left: 50%;
+    left: 40%;
     text-align: justify;
     font: normal normal 600 18px/31px Segoe UI;
     letter-spacing: 0px;
@@ -194,6 +236,7 @@
     color:#104e53;
     border:4px solid #104e53;
     border-radius: 8px;
+    align-items: center;
 }
 
 .card_img{
@@ -208,9 +251,11 @@
 .tit_card1{
     position:relative;
     top: 20px;
+    text-align: center;
 }
 
 #botao{
+    position:absolute;
     text-decoration: none;
     background-color: rgb(6, 113, 130);
     color: #cbedf5;
@@ -218,6 +263,7 @@
     border-radius: 8px;
     padding:5px 20px;
     height: 32px;
+    left: 30%;
 }
 
 .card2{
@@ -242,16 +288,63 @@
     border-radius: 8px;
 }
 
-
 #footer{
     top: 3000px;
     left: 0px;
     width: 1555px;
-    height: 300px;
+    height: 400px;
     background: #104e53 0% 0% no-repeat padding-box;
     color: #FFFFFF;
     opacity: 1;
 }
+
+.titulo__contato{
+    position:relative;
+    width: 700px;
+    height: 50px;
+    left: 30%;
+}
+
+.contato{
+    position:relative;
+    width: 300px;
+    height: 150px;
+    left: 30%;
+    text-align: justify;
+}
+
+.redes{
+    position:relative;
+    width: 300px;
+    height: 150px;
+    left: 30%;
+    text-align: justify;
+}
+
+.conta_inst{
+    text-decoration: none;
+    color:#e9eff0;
+    font-size: small;
+}
+
+.conta_face{
+    text-decoration: none;
+    color:#e9eff0;
+    font-size: small;
+}
+
+.formulario{
+    position:relative;
+    width: 300px;
+    height: 300px;
+    bottom: 79%;
+    left: 50%;
+    text-align: justify;
+}
+
+
+
+
 
 
 
